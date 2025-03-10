@@ -77,3 +77,17 @@
 .item-details .cta-button:hover {
     background-color: #e5533d;
 }
+.btn {
+    background-color: goldenrod;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: gold;
+}
