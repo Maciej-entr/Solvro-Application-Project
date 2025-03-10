@@ -1,4 +1,4 @@
-// filepath: c:\Users\mwasz\OneDrive\Desktop\Solvro Cocktails\cocktail\src\components\main\Main.jsx
+
 import React, { useEffect, useState } from 'react';
 import CocktailItem from '../../components/cocktailItem/CocktailItem';
 import './main.css';

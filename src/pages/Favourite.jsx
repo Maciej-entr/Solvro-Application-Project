@@ -7,7 +7,7 @@ const Favourite = () => {
     const [favourites, setFavourites] = useState([]);
 
     useEffect(() => {
-        // Retrieve favourite drinks from local storage or API
+        
         const storedFavourites = JSON.parse(localStorage.getItem('favourites')) || [];
         setFavourites(storedFavourites);
     }, []);
