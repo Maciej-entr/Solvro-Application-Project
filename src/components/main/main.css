@@ -23,3 +23,13 @@
 .span{
     color: goldenrod;
 }
+@media (max-width: 768px) {
+    .text-center {
+        font-size: 30px;
+    }
+
+    .cocktail-list {
+        grid-template-columns: 1fr;
+        justify-items: center; 
+    }
+}

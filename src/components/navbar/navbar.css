@@ -87,3 +87,13 @@
   border-radius: 5px;
   margin-left:-45px;
 }
+@media (max-width: 768px) {
+  .navbar-links {
+      flex-direction: row;
+      gap: 1rem;
+  }
+
+  .navbar-search {
+      display: none;
+  }
+}

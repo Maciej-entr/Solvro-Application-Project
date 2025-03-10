@@ -42,3 +42,8 @@
 .btn-remove:hover {
     background-color: darkred;
 }
+@media (max-width: 768px) {
+    .favourite-item {
+        width: 100%;
+    }
+}
