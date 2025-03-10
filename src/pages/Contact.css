@@ -1,0 +1,69 @@
+.contact-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: url('../assets/contact_background.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    color: #fff;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(5, 5, 5, 0.651); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form textarea {
+    width: 100%;
+    max-width: 580px;
+    height: 150px;
+    resize: none;
+    overflow: hidden;
+  }
+  
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2f2e2e;
+    color: #fff;
+  }
+  
+  .contact-form input:focus,
+  .contact-form select:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    background-color: #2f2e2e;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: goldenrod;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: gold;
+  }

@@ -1,0 +1,25 @@
+.main-container {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 40px;    
+    color: white;
+    font-size: 40px;
+}
+
+.cocktail-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px; 
+    margin: 0 auto;
+  
+}
+.span{
+    color: goldenrod;
+}

@@ -1,0 +1,62 @@
+.cocktails-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    margin: auto;
+  }
+  
+  .cocktail-link {
+    width: 100%;
+    text-decoration: none;
+  }
+  h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  span{
+    color: goldenrod;
+  }
+  .cocktail-item {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 3px 3px 15px rgba(247, 246, 246, 0.586);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .cocktail-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .cocktail-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .cocktail-details {
+    flex: 1;
+  }
+  
+  .cocktail-details h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white; 
+  }
+  
+  .cocktail-details p {
+    margin: 10px 0 0;
+    color: #ccc; 
+  }
