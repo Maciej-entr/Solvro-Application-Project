@@ -4,12 +4,26 @@ import logo from '../../assets/logo.png'
 import facebook from '../../assets/facebook.png'
 import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.png'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router'
 const Foter = () => {
 
-    const handleLinkClick = (url) => {
-        window.location.href = url;
-      };
+    const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    navigate('/');
+  }
+
+  const handleCocktailsClick = () => {
+    navigate('/cocktails');
+  }
+
+  const handleContactClick = () => {
+    navigate('/contact');
+  }
+
+  const handlePrivacyPolicyClick = () => {
+    navigate('/privacy-policy');
+  }
 
   return (
     <div> <div className="footer" id="footer">
@@ -27,10 +41,10 @@ const Foter = () => {
         <div className="footer-content-center">
             <h2>COMPANY</h2>
             <ul>
-            <li><a href="/" onClick={() => handleLinkClick('/')} className='a'>Home</a></li>
-              <li><a href="/cocktails" onClick={() => handleLinkClick('/cocktails')} className='a'>Cocktails</a></li>
-              <li><a href="/contact" onClick={() => handleLinkClick('/contact')} className='a'>Contact</a></li>
-              <li><a href="/privacy-policy" onClick={() => handleLinkClick('/privacy-policy')} className='a'>Privacy Policy</a></li>
+            <li><a href="/" onClick={() => handleHomeClick} className='a'>Home</a></li>
+              <li><a href="/cocktails" onClick={() => handleCocktailsClick} className='a'>Cocktails</a></li>
+              <li><a href="/contact" onClick={() => handleContactClick} className='a'>Contact</a></li>
+              <li><a href="/privacy-policy" onClick={() => handlePrivacyPolicyClick} className='a'>Privacy Policy</a></li>
            </ul>
 
         </div>
