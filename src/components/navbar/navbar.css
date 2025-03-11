@@ -4,6 +4,7 @@
   justify-content: space-between;
   background-color: black;
   padding: 1rem;
+  padding-left: 1rem;
 }
 
 .navbar-logo img {
@@ -88,12 +89,32 @@
   margin-left:-45px;
 }
 @media (max-width: 768px) {
+  .navbar-logo img {
+    display: none;
+  }
   .navbar-links {
       flex-direction: row;
       gap: 1rem;
+      margin: auto;
   }
 
   .navbar-search {
       display: none;
   }
+  .navbar{
+    max-width: 100%;
+    padding-left: 0.2rem;
+  }
+}
+@media (max-width: 400px){
+  .navbar{
+    max-width: 100%;
+  }
+  .navbar-logo img{
+    display: none;
+  }
+  .navbar-links {
+    margin: auto;
+    padding: auto;
+}
 }
